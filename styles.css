@@ -38,3 +38,9 @@
 
 .inquiry-form{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}.inquiry-form .eyebrow{margin-bottom:12px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.form-grid label{display:block}.form-grid label.full,.form-grid fieldset{grid-column:1/-1}.form-grid label>span,.form-grid legend{display:block;font-size:11px;font-weight:800;letter-spacing:.04em;color:#5d6f80;margin-bottom:5px}.form-grid input[type=text],.form-grid input[type=email],.form-grid input:not([type]),.form-grid textarea{width:100%;border:1px solid var(--line);padding:10px 12px;font:inherit;font-size:14px;border-radius:4px;background:#fff}.form-grid input:focus,.form-grid textarea:focus{outline:2px solid #bcd6f5;border-color:var(--blue)}.form-grid textarea{resize:vertical}.form-grid fieldset{border:1px solid var(--line);padding:12px 14px;margin:0;display:flex;flex-wrap:wrap;gap:8px 18px}.form-grid fieldset legend{padding:0 6px;margin:0}.form-grid label.chk{display:inline-flex;align-items:center;gap:6px;font-size:13px}.form-grid label.chk input{margin:0}.form-actions{display:flex;align-items:center;gap:16px;margin-top:16px;flex-wrap:wrap}.form-status{margin:0;font-size:13px;color:var(--muted)}.form-status.ok{color:#1d9a5b}.form-status.bad{color:#d33}.modal-card{width:min(760px,100%)}
 @media(max-width:600px){.form-grid{grid-template-columns:1fr}}
+
+.pseries .rtk{background:transparent;padding:0;margin-bottom:10px}.pseries .rtk-visual{min-height:560px}.pseries .rtk-copy .p-items{margin:10px 0 14px;font-size:14px}.iot-heading{margin-bottom:40px}.iot-heading h2{font-size:clamp(30px,3.6vw,46px)}.pseries .iot-architecture{margin-bottom:70px}
+@media(max-width:760px){.pseries .rtk-visual{min-height:360px}}
+
+.hero-status a small{display:block}
+.rtk-copy h2,.section-heading h2{word-break:keep-all}
