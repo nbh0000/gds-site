@@ -94,3 +94,4 @@
 #software .cat-card{background:#fff;border-color:var(--line);border-top:3px solid var(--cyan)}
 #software .p-head .eyebrow{color:var(--blue)}#software .software-tags span{border-color:var(--line);color:#5d6f80}
 #software .screen{box-shadow:none;border:1px solid var(--line);background:#f8fafc}#software .screen img{background:#fff}
+.p-figure.kit.wide{margin-bottom:0}
