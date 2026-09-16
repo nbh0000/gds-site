@@ -107,3 +107,6 @@
 /* development note as plain text under the e-mail */
 .rnd-plain{margin-top:40px;max-width:520px}.rnd-plain .eyebrow{margin-bottom:8px}.rnd-plain p:not(.eyebrow){margin:0;font-size:15px;line-height:1.75;color:var(--muted);word-break:keep-all}
 .contact h2{font-size:clamp(30px,3.4vw,46px)}.mail-link{font-size:clamp(19px,2.2vw,28px);margin-top:20px}
+.rtk-copy h2,.section-heading h2{word-break:keep-all}
+.hero h1{font-size:clamp(40px,5.4vw,76px)}
+@media(max-width:760px){.hero h1{font-size:clamp(38px,11vw,56px)}}
