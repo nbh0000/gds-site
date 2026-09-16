@@ -97,3 +97,8 @@
 .p-figure.kit.wide{margin-bottom:0}
 .iot-heading{max-width:none}.iot-heading h2{font-size:clamp(24px,2.5vw,34px)}
 @media(min-width:1051px){.iot-heading h2{white-space:nowrap}}
+
+/* development note merged into contact */
+.rnd-note{margin-top:38px;background:linear-gradient(115deg,#0a315d 0%,#0b2646 55%,#07192e 100%);color:#fff;padding:26px 28px;border-radius:4px;scroll-margin-top:calc(var(--header) + 24px)}
+.rnd-note .eyebrow{color:var(--cyan);margin-bottom:8px}.rnd-note p:not(.eyebrow){margin:0;font-size:16px;line-height:1.75;color:#e6eef5;word-break:keep-all}
+.contact{align-items:stretch}
