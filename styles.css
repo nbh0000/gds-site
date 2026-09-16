@@ -95,3 +95,5 @@
 #software .p-head .eyebrow{color:var(--blue)}#software .software-tags span{border-color:var(--line);color:#5d6f80}
 #software .screen{box-shadow:none;border:1px solid var(--line);background:#f8fafc}#software .screen img{background:#fff}
 .p-figure.kit.wide{margin-bottom:0}
+.iot-heading{max-width:none}.iot-heading h2{font-size:clamp(24px,2.5vw,34px)}
+@media(min-width:1051px){.iot-heading h2{white-space:nowrap}}
