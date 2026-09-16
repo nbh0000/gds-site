@@ -124,3 +124,5 @@ a.ctile{transition:background .25s}a.ctile b{color:var(--navy);border-bottom:2px
 .contact-actions .dealer-banner{padding:22px 28px;text-align:left;border-radius:0}.dealer-banner span{display:flex;flex-direction:column;gap:6px}.dealer-banner small{font-size:10px;letter-spacing:.14em;font-weight:800;color:rgba(255,255,255,.8)}.dealer-banner b{font-size:16px;font-weight:800}.dealer-banner i{font-size:20px}
 @media(max-width:1050px){.contact-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.contact-grid{grid-template-columns:1fr}.ctile{min-height:0;padding:16px 18px}.contact-actions{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(40px,5.4vw,76px)}
+@media(max-width:760px){.hero h1{font-size:clamp(38px,11vw,56px)}}
