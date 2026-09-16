@@ -54,3 +54,12 @@
 .products-intro{padding-bottom:0;background:#fff}.subnav{background:rgba(255,255,255,.94)}
 @media(max-width:1050px){.cat-card{padding:40px 32px 44px}}
 @media(max-width:760px){.pseries,.pseries.alt{padding-top:36px;padding-bottom:36px}.cat-card{padding:28px 16px 32px}.cat-card .p-head{margin-bottom:28px}}
+
+/* products header band */
+.products-intro{background:#f8fafc;border-top:1px solid var(--line);padding-top:64px;padding-bottom:0}
+.products-intro .section-heading{margin-bottom:24px}
+.products-intro .eyebrow{margin-bottom:10px}
+.products-intro h2{font-size:clamp(26px,3vw,38px);letter-spacing:-.03em;line-height:1.15}
+.subnav{background:#f8fafc;border-top:1px solid var(--line)}.subnav.stuck{background:rgba(255,255,255,.96)}
+.subnav a{padding:15px 18px 13px}
+@media(max-width:760px){.products-intro{padding-top:44px}.products-intro .section-heading{margin-bottom:16px}}
