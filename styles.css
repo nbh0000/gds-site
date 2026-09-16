@@ -44,3 +44,13 @@
 
 .hero-status a small{display:block}
 .rtk-copy h2,.section-heading h2{word-break:keep-all}
+
+/* category cards */
+.pseries,.pseries.alt{background:var(--paper);padding-top:60px;padding-bottom:60px}.pseries.dark{background:#071a30}
+.cat-card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--cyan);padding:60px 56px 64px}
+#inclinometer .cat-card{border-top-color:var(--blue)}#waveon .cat-card{border-top-color:var(--cyan)}#rtk .cat-card{border-top-color:var(--green)}#iot .cat-card{border-top-color:var(--orange)}#others .cat-card{border-top-color:var(--navy)}
+#software .cat-card{background:#0c2642;border-color:rgba(255,255,255,.09);border-top:3px solid var(--cyan)}
+.cat-card .p-head{margin-bottom:44px}.cat-card .wave-detail{background:#f8fafc}.cat-card .wave-detail .spec-table,.cat-card .wave-detail .parts-list li{background:#fff}
+.products-intro{padding-bottom:0;background:#fff}.subnav{background:rgba(255,255,255,.94)}
+@media(max-width:1050px){.cat-card{padding:40px 32px 44px}}
+@media(max-width:760px){.pseries,.pseries.alt{padding-top:36px;padding-bottom:36px}.cat-card{padding:28px 16px 32px}.cat-card .p-head{margin-bottom:28px}}
