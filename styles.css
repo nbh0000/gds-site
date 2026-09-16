@@ -112,3 +112,15 @@
 .rnd-note{margin:0 0 40px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:0;padding:22px 26px}
 .rnd-note .eyebrow{color:var(--blue)}.rnd-note p:not(.eyebrow){color:#2c3e50;font-size:15px}
 .contact h2{font-size:clamp(28px,3.2vw,42px)}.mail-link{font-size:clamp(18px,2vw,26px);margin-top:18px}
+
+/* contact section redesign */
+.contact{display:block;border-top:1px solid var(--line)}
+.contact .section-heading{margin-bottom:30px}.contact h2{font-size:clamp(28px,3.2vw,42px)}
+.contact-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.6fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.ctile{display:block;background:#fff;padding:22px 24px;color:inherit;min-height:104px}.ctile span{display:block;font-size:10px;letter-spacing:.14em;font-weight:800;color:#8192a1;margin-bottom:9px}.ctile b{font-size:15.5px;line-height:1.5;word-break:keep-all}
+a.ctile{transition:background .25s}a.ctile b{color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:1px}a.ctile:hover{background:#f7f9fb}
+.contact-actions{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;align-items:stretch}
+.contact-actions .rnd-note{margin:0;display:flex;flex-direction:column;justify-content:center;padding:24px 28px}
+.contact-actions .dealer-banner{padding:22px 28px;text-align:left;border-radius:0}.dealer-banner span{display:flex;flex-direction:column;gap:6px}.dealer-banner small{font-size:10px;letter-spacing:.14em;font-weight:800;color:rgba(255,255,255,.8)}.dealer-banner b{font-size:16px;font-weight:800}.dealer-banner i{font-size:20px}
+@media(max-width:1050px){.contact-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.contact-grid{grid-template-columns:1fr}.ctile{min-height:0;padding:16px 18px}.contact-actions{grid-template-columns:1fr}}
