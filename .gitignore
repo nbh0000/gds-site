@@ -1,0 +1,5 @@
+# admin runtime data (never publish)
+admin_config.json
+inquiries.json
+*.tmp
+__pycache__/
