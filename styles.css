@@ -89,3 +89,8 @@
 .iot-docs{display:grid;grid-template-columns:240px 1fr;gap:36px;align-items:start}.iot-docs .doc img{width:100%;height:280px;object-fit:contain;object-position:top;background:#fafbfc}.iot-side h3{margin:6px 0 14px}.iot-side .p-items{margin:0 0 14px;font-size:14px}
 @media(max-width:1050px){.parts-list.five{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.parts-list.five{grid-template-columns:1fr 1fr}.iot-docs{grid-template-columns:1fr}.iot-docs .doc{max-width:260px}}
+
+/* GMS card on light like the others */
+#software .cat-card{background:#fff;border-color:var(--line);border-top:3px solid var(--cyan)}
+#software .p-head .eyebrow{color:var(--blue)}#software .software-tags span{border-color:var(--line);color:#5d6f80}
+#software .screen{box-shadow:none;border:1px solid var(--line);background:#f8fafc}#software .screen img{background:#fff}
