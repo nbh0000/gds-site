@@ -121,8 +121,8 @@
   .hero-bg{position:relative;inset:auto}.hero-bg:after{display:none}
   .hero-bg img{width:100%;height:auto;object-fit:initial;filter:none;transform:none}
   .hero-content,.hero-status,.scroll-cue,.hero-grid,.hero-orbit{display:none}
-  .hero-hotspot{position:absolute;display:block;top:44.5%;height:8.5%;border-radius:999px}
-  .hero-hotspot.hs-solutions{left:19.6%;width:7.8%}.hero-hotspot.hs-contact{left:27.9%;width:7%}
+  .hero-hotspot{position:absolute;display:block;top:46%;height:9%;border-radius:999px}
+  .hero-hotspot.hs-solutions{left:20.3%;width:7.9%}.hero-hotspot.hs-contact{left:28.8%;width:7.4%}
 }
 @media(max-width:760px){
   .hero{display:block;min-height:0;padding:var(--header) 0 0;background:#fff;color:var(--navy)}
