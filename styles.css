@@ -110,3 +110,44 @@
 .rtk-copy h2,.section-heading h2{word-break:keep-all}
 .hero h1{font-size:clamp(40px,5.4vw,76px)}
 @media(max-width:760px){.hero h1{font-size:clamp(38px,11vw,56px)}}
+
+/* ---------- 2026-09 revision (홈페이지 수정_1.pptx) ---------- */
+/* header: image logo */
+.brand{min-width:0}.brand-logo{height:44px;width:auto;display:block}
+@media(max-width:760px){.brand-logo{height:36px}}
+/* hero: provided image as-is on desktop, text layer only on small screens */
+@media(min-width:761px){
+  .hero{min-height:0;display:block;padding:var(--header) 0 0;background:#fff}
+  .hero-bg{position:relative;inset:auto}.hero-bg:after{display:none}
+  .hero-bg img{width:100%;height:auto;object-fit:initial;filter:none;transform:none}
+  .hero-content,.hero-status,.scroll-cue,.hero-grid,.hero-orbit{display:none}
+  .hero-hotspot{position:absolute;display:block;top:44.5%;height:8.5%;border-radius:999px}
+  .hero-hotspot.hs-solutions{left:19.6%;width:7.8%}.hero-hotspot.hs-contact{left:27.9%;width:7%}
+}
+@media(max-width:760px){
+  .hero{display:block;min-height:0;padding:var(--header) 0 0;background:#fff;color:var(--navy)}
+  .hero-bg{position:relative;inset:auto}.hero-bg:after{display:none}
+  .hero-bg img{width:100%;height:auto;object-fit:initial;filter:none;transform:none}
+  .hero-hotspot,.hero-grid,.hero-orbit,.scroll-cue,.hero-status{display:none}
+  .hero-content{width:auto;margin:0;padding:26px 20px 36px}
+  .hero .eyebrow{color:var(--blue)}.hero h1{color:var(--navy);word-break:keep-all}.hero h1 em{color:#1c5fb8}
+  .hero-copy{color:#3c4d5e;margin:18px 0 24px}
+  .hero .btn-ghost{border-color:#1c5fb8;color:#1c5fb8}
+}
+/* about: single provided visual */
+.about-visual{display:block;height:auto}.about-visual img{height:auto;object-fit:contain}
+/* solutions flow: tighter so 제품소개 follows right below (솔루션 보기) */
+.intro.section{padding-top:56px;padding-bottom:40px}
+.intro .section-heading{margin-bottom:28px}
+.flow article{min-height:0;padding:24px 28px 26px}.flow article h3{margin-top:44px}
+.flow-line{top:69px}.flow .ico{top:54px;left:28px}
+.products-intro{padding-top:44px}
+/* RTK: show the whole product photo */
+.pseries .rtk-visual{min-height:0}.pseries .rtk-visual img{position:static;height:auto;object-fit:contain;display:block}
+.pseries .rtk-visual:after{display:none}
+/* others: full-width images and image spec tables */
+.thumb-row figure.full{width:100%}.thumb-row figure.full img{height:auto;padding:0;background:transparent}
+.thumb-row figure.full img{max-height:420px;width:auto;max-width:100%;object-fit:contain}
+.spec-figure{margin:0}.spec-figure img{width:100%;height:auto;display:block;border:1px solid var(--line)}
+.approved{margin:14px 0 0;width:100%;font-size:14px;font-weight:800;color:var(--navy)}
+@media(max-width:1050px){.other-body{grid-template-columns:1fr}.spec-figure{max-width:640px}}

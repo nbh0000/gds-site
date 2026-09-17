@@ -3,3 +3,7 @@ admin_config.json
 inquiries.json
 *.tmp
 __pycache__/
+# reference documents (not published)
+*.pptx
+*.pdf
+홈피수정/

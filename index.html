@@ -6,14 +6,13 @@
   <meta name="description" content="GDS 지디에스 — 건설정보화시스템의 선두. 자동 이송형 경사계, 진동/소음, RTK-GNSS, IoT 계측기, 모니터링 프로그램" />
   <title>GDS | 건설정보화시스템의 선두 GDS 지디에스</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23092b53'/%3E%3Cpath d='M14 18h18v18H14zM28 28h22v22H28z' fill='none' stroke='%23ff5b36' stroke-width='4'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="styles.css?v=20260916140844" />
+  <link rel="stylesheet" href="styles.css?v=20260917150000" />
 </head>
 <body>
   <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
   <header class="site-header" id="top">
     <a class="brand" href="#hero" aria-label="GDS home">
-      <span class="brand-mark" aria-hidden="true"><i></i><b></b></span>
-      <span><strong>GDS</strong><small>CONSTRUCTION MONITORING</small></span>
+      <img class="brand-logo" src="assets/gds_logo.webp" alt="건설정보화시스템의 선두 GDS 지디에스" data-cms-img="header-img1">
     </a>
     <nav class="desktop-nav" aria-label="Primary">
       <a href="#about" data-section="about" data-ko="회사소개" data-en="About">회사소개</a>
@@ -44,23 +43,26 @@
 
   <main>
     <section class="hero" id="hero" data-observe>
-      <div class="hero-bg" aria-hidden="true"><img src="assets/hero_rtk.webp" alt="" / data-cms-img="hero-img1"></div>
+      <div class="hero-bg"><img src="assets/hero_main.webp" alt="현장을 측정하고 데이터로 연결합니다. 건설 계측의 경험과 IT 기술을 결합하여 더 안전한 사회를 만들어갑니다." data-cms-img="hero-img1">
+        <a class="hero-hotspot hs-solutions" href="#solutions" aria-label="솔루션 보기"></a>
+        <a class="hero-hotspot hs-contact" href="#contact" aria-label="제품 문의"></a>
+      </div>
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-orbit orbit-a" aria-hidden="true"></div><div class="hero-orbit orbit-b" aria-hidden="true"></div>
       <div class="hero-content reveal">
         <p class="eyebrow" data-ko="SMART CONSTRUCTION · SENSOR · IoT" data-en="SMART CONSTRUCTION · SENSOR · IoT" data-cms="hero-t1">SMART CONSTRUCTION · SENSOR · IoT</p>
         <h1><span data-ko="현장을 측정하고" data-en="Measure the site" data-cms="hero-t2">현장을 측정하고</span><br><em data-ko="데이터로 연결합니다." data-en="Connect it with data." data-cms="hero-t3">데이터로 연결합니다.</em></h1>
-        <p class="hero-copy" data-ko="자동 이송 경사계부터 진동·소음, RTK-GNSS, 저전력 IoT 계측기와 통합 모니터링까지. 건설 계측을 하나의 흐름으로 연결합니다." data-en="From automatic inclinometer movement to vibration &amp; sound, RTK-GNSS, low-power IoT dataloggers and integrated monitoring — one connected workflow for construction instrumentation." data-cms="hero-t4">자동 이송 경사계부터 진동·소음, RTK-GNSS, 저전력 IoT 계측기와 통합 모니터링까지. 건설 계측을 하나의 흐름으로 연결합니다.</p>
+        <p class="hero-copy" data-ko="건설 계측의 경험과 IT 기술을 결합하여 더 안전한 사회를 만들어갑니다." data-en="Combining construction instrumentation experience with IT technology to build a safer society." data-cms="hero-t4">건설 계측의 경험과 IT 기술을 결합하여 더 안전한 사회를 만들어갑니다.</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="#solutions"><span data-ko="솔루션 보기" data-en="Explore solutions" data-cms="hero-t5">솔루션 보기</span><i>↘</i></a>
           <a class="btn btn-ghost" href="#contact" data-ko="제품 문의" data-en="Contact sales" data-cms="hero-t6">제품 문의</a>
         </div>
       </div>
       <div class="hero-status reveal delay-2" aria-label="Solution areas">
-        <a href="#inclinometer"><span data-cms-text="hero-x108">01</span><strong data-ko="변위" data-en="Displacement" data-cms="hero-t7">변위</strong><small data-cms-text="hero-x109">AUTO INCLINOMETER</small></a>
-        <a href="#waveon"><span data-cms-text="hero-x110">02</span><strong data-ko="환경·구조" data-en="Environmental / Structural" data-cms="hero-t8">환경·구조</strong><small data-cms-text="hero-x111">WAVEON</small></a>
-        <a href="#rtk"><span data-cms-text="hero-x112">03</span><strong data-ko="정밀 위치" data-en="Precise Position" data-cms="hero-t9">정밀 위치</strong><small data-cms-text="hero-x113">RTK-GNSS</small></a>
-        <a href="#iot"><span data-cms-text="hero-x114">04</span><strong data-ko="원격 계측" data-en="Remote Monitoring" data-cms="hero-t10">원격 계측</strong><small data-cms-text="hero-x115">IoT + GMS</small></a>
+        <div><span data-cms-text="hero-x108">01</span><strong data-ko="연구개발" data-en="R&amp;D" data-cms="hero-t7">연구개발</strong><small data-ko="회로 / 펌웨어 설계" data-en="Circuit / firmware design" data-cms="hero-t11">회로 / 펌웨어 설계</small></div>
+        <div><span data-cms-text="hero-x110">02</span><strong data-ko="제품화" data-en="Productization" data-cms="hero-t8">제품화</strong><small data-ko="자체 생산·품질관리" data-en="In-house production &amp; QC" data-cms="hero-t12">자체 생산·품질관리</small></div>
+        <div><span data-cms-text="hero-x112">03</span><strong data-ko="현장검증" data-en="Field verification" data-cms="hero-t9">현장검증</strong><small data-ko="실제 현장에서 신뢰성 확보" data-en="Reliability proven on real sites" data-cms="hero-t13">실제 현장에서 신뢰성 확보</small></div>
+        <div><span data-cms-text="hero-x114">04</span><strong data-ko="세계로" data-en="Global" data-cms="hero-t10">세계로</strong><small data-ko="국내를 넘어 글로벌 시장으로" data-en="Beyond Korea to the global market" data-cms="hero-t14">국내를 넘어 글로벌 시장으로</small></div>
       </div>
       <a href="#solutions" class="scroll-cue" aria-label="Scroll"><span></span><small data-cms-text="hero-x107">SCROLL</small></a>
     </section>
@@ -75,8 +77,7 @@
           <img class="about-logo" src="assets/gds_logo.webp" alt="건설정보화시스템의 선두 GDS 지디에스" loading="lazy" data-cms-img="about-img1">
         </div>
         <div class="about-visual reveal delay-1">
-          <figure><img src="assets/incline_field_1.webp" alt="GDS equipment on site" loading="lazy" data-cms-img="about-img2"></figure>
-          <figure><img src="assets/waveon_eco.webp" alt="WAVEON 4 eco on site" loading="lazy" data-cms-img="about-img3"></figure>
+          <figure><img src="assets/about_visual.webp" alt="건설의 안전을 기술로 연결하는 GDS" loading="lazy" data-cms-img="about-img2"></figure>
         </div>
       </div>
     </section>
@@ -99,7 +100,7 @@
     <section class="products-intro section" data-observe>
       <div class="section-heading reveal">
         <p class="eyebrow" data-ko="제품소개" data-en="PRODUCTS" data-cms="products-t1">제품소개</p>
-        <h2 data-ko="제품 설명 · 특허, 시험성적서" data-en="Product description · Patents, test reports" data-cms="products-t2">제품 설명 · 특허, 시험성적서</h2>
+        <h2 data-ko="제품 설명" data-en="Product description" data-cms="products-t2">제품 설명</h2>
       </div>
     </section>
     <nav class="subnav" id="subnav" aria-label="Product categories">
@@ -195,7 +196,7 @@
 
         <div class="spec-cols">
           <div class="spec-table">
-            <h4 data-ko="진동센서" data-en="Vibration sensor" data-cms="waveon-t14">진동센서</h4>
+            <h4 data-ko="진동센서 _ ISO 8041" data-en="Vibration sensor _ ISO 8041" data-cms="waveon-t14">진동센서 _ ISO 8041</h4>
             <dl>
               <div><dt data-ko="무게 및 크기" data-en="Weight &amp; size" data-cms="waveon-t15">무게 및 크기</dt><dd data-cms-text="waveon-x1">270g, 70*45</dd></div>
               <div><dt data-ko="측정범위" data-en="Range" data-cms="waveon-t16">측정범위</dt><dd data-cms-text="waveon-x2">40~120dB(V)</dd></div>
@@ -204,7 +205,7 @@
             </dl>
           </div>
           <div class="spec-table">
-            <h4 data-ko="소음센서 _ Class 2" data-en="Sound sensor _ Class 2" data-cms="waveon-t19">소음센서 _ Class 2</h4>
+            <h4 data-ko="소음센서 _ IEC 61672-1" data-en="Sound sensor _ IEC 61672-1" data-cms="waveon-t19">소음센서 _ IEC 61672-1</h4>
             <dl>
               <div><dt data-ko="무게 및 크기" data-en="Weight &amp; size" data-cms="waveon-t20">무게 및 크기</dt><dd data-cms-text="waveon-x5">150g, 12.2*185</dd></div>
               <div><dt data-ko="측정범위" data-en="Range" data-cms="waveon-t21">측정범위</dt><dd data-ko="35~130dB(L) _ 단일레인지" data-en="35~130dB(L) _ single range" data-cms="waveon-t22">35~130dB(L) _ 단일레인지</dd></div>
@@ -318,7 +319,7 @@
 
       <div class="p-block reveal">
         <h3 data-ko="사양" data-en="Specifications" data-cms="rtk-t13">사양</h3>
-        <div class="spec-cols three">
+        <div class="spec-cols">
           <div class="spec-table blue">
             <h4 data-cms-text="rtk-x111">Physical and Electrical</h4>
             <dl>
@@ -328,11 +329,9 @@
               <div><dt data-cms-text="rtk-x115">Connectors</dt><dd data-cms-text="rtk-x4">TNC(F) for GNSS Antenna<br>BNC(F) for Radio Antenna</dd></div>
               <div><dt data-cms-text="rtk-x116">Mounting</dt><dd data-cms-text="rtk-x5">2" Pole Clamps included. Flexible hole pattern also work for alternate mounting.</dd></div>
               <div><dt data-cms-text="rtk-x117">Temperature</dt><dd data-cms-text="rtk-x6">Operating: -40°C to +60°C<br>Storage: -40°C to +60°C</dd></div>
-              <div><dt data-cms-text="rtk-x118">Power Consumption</dt><dd data-cms-text="rtk-x7">42mWH per measurement. ~8000 measurements with 6 x Lithium D Batteries at room temperature† with 'In RTK mode'</dd></div>
             </dl>
             <h4 data-cms-text="rtk-x119">Sensors</h4>
             <dl>
-              <div><dt data-cms-text="rtk-x120">GNSS Channels</dt><dd data-cms-text="rtk-x8">555</dd></div>
               <div><dt data-cms-text="rtk-x121">GNSS Signals Received</dt><dd data-cms-text="rtk-x9">GPS L1 C/A, L1C, L2C, L2P, L5<br>GLONASS† L1 C/A, L2 C/A, L2P, L3, L5<br>Galileo† E1, E5 AltBOC, E5a, E5b, E6<br>BeiDou† B1I, B1C, B2I, B2a, B3I<br>QZSS† L1 C/A, L1C, L2C, L5, L6</dd></div>
               <div><dt data-cms-text="rtk-x122">Biaxial Tilt Accuracy</dt><dd data-cms-text="rtk-x10">&lt;0.01°</dd></div>
               <div><dt data-cms-text="rtk-x123">Environmental Sensors</dt><dd data-cms-text="rtk-x11">Temperature, Input Voltage, Input Current, Charge Voltage, Charge Current, Runtime Metrics</dd></div>
@@ -340,8 +339,8 @@
             <h4 data-cms-text="rtk-x124">Typical GNSS Measurement Performance</h4>
             <dl>
               <div><dt></dt><dd data-cms-text="rtk-x12"><b data-cms-text="rtk-x125">Real-time kinematic mode</b></dd></div>
-              <div><dt data-cms-text="rtk-x126">Horizontal Repeatability (24 hr average)</dt><dd data-cms-text="rtk-x13">2 mm</dd></div>
-              <div><dt data-cms-text="rtk-x127">Vertical Repeatability (24 hr average)</dt><dd data-cms-text="rtk-x14">3 mm</dd></div>
+              <div><dt data-cms-text="rtk-x126">Horizontal Repeatability</dt><dd data-cms-text="rtk-x13">1~2mm</dd></div>
+              <div><dt data-cms-text="rtk-x127">Vertical Repeatability</dt><dd data-cms-text="rtk-x14">1~3mm</dd></div>
             </dl>
           </div>
           <div class="spec-table blue">
@@ -361,18 +360,8 @@
             <h4 data-cms-text="rtk-x137">Telemetry</h4>
             <dl>
               <div><dt data-cms-text="rtk-x138">Mesh Radio</dt><dd data-cms-text="rtk-x22">868MHz, 900MHz, 2.4GHz</dd></div>
-              <div><dt data-cms-text="rtk-x139">WiFi</dt><dd data-cms-text="rtk-x23">802.11 B/G/N</dd></div>
             </dl>
-            <h4 data-cms-text="rtk-x140">Spares and Accessories</h4>
-            <dl>
-              <div><dt><b data-cms-text="rtk-x141">Part #</b></dt><dd data-cms-text="rtk-x24"><b data-cms-text="rtk-x142">Item</b></dd></div>
-              <div><dt data-cms-text="rtk-x143">BATT-GMS700</dt><dd data-cms-text="rtk-x25">Lithium Battery Replacement for GMS700 4.4V 76.0AH</dd></div>
-              <div><dt data-cms-text="rtk-x144">ACAL-MAIN</dt><dd data-cms-text="rtk-x26">Prism Stand-Prism Holder for 1 Prism</dd></div>
-              <div><dt data-cms-text="rtk-x145">ACAL-MAIN-2-PRISMS</dt><dd data-cms-text="rtk-x27">Prism Stand-Prism Holder for 2 x Prisms</dd></div>
-            </dl>
-            <p class="footnote">* Without battery<br>† Optional, requires extra license<br>‡ Additional antenna options available</p>
           </div>
-          <figure class="spec-image doc" data-lightbox="assets/rtk_spec_table.webp"><img src="assets/rtk_spec_table.webp" alt="RTK-GNSS specification table (original)" loading="lazy" data-cms-img="rtk-img3"><figcaption data-ko="원본 사양표 (클릭하여 확대)" data-en="Original spec sheet (click to enlarge)" data-cms="rtk-t21">원본 사양표 (클릭하여 확대)</figcaption></figure>
         </div>
       </div>
       </div>
@@ -514,9 +503,7 @@
           <div class="other-head"><span class="p-num" data-cms-text="others-x102">6-1</span><h3 data-ko="자동 계측기" data-en="Automatic dataloggers" data-cms="others-t4">자동 계측기</h3></div>
           <div class="other-body">
             <div class="thumb-row">
-              <figure><img src="assets/logger_3ch.webp" alt="M-100 3-channel datalogger" loading="lazy" data-cms-img="others-img1"><figcaption data-ko="3채널" data-en="3 channels" data-cms="others-t29">3채널</figcaption></figure>
-              <figure><img src="assets/logger_6ch.webp" alt="SAFE TUNER 6-channel datalogger" loading="lazy" data-cms-img="others-img2"><figcaption data-ko="6채널" data-en="6 channels" data-cms="others-t30">6채널</figcaption></figure>
-              <figure><img src="assets/logger_32ch.webp" alt="SAFETUNER SA32B 32-channel datalogger" loading="lazy" data-cms-img="others-img3"><figcaption data-ko="32채널" data-en="32 channels" data-cms="others-t31">32채널</figcaption></figure>
+              <figure class="full"><img src="assets/loggers_3_6_32ch.webp" alt="3채널 M-100, 6채널 SAFE TUNER ST-200, 32채널 SAFETUNER STC-300" loading="lazy" data-cms-img="others-img1"></figure>
             </div>
             <div class="spec-table compact">
               <h4 data-ko="3채널/6채널/32채널 공통 사양" data-en="Common specification (3/6/32 channels)" data-cms="others-t5">3채널/6채널/32채널 공통 사양</h4>
@@ -533,17 +520,10 @@
           <div class="other-head"><span class="p-num" data-cms-text="others-x103">6-2</span><h3 data-ko="지진계" data-en="Seismograph" data-cms="others-t10">지진계</h3></div>
           <div class="other-body">
             <div class="thumb-row">
-              <figure><img src="assets/seismograph.webp" alt="GDS-S1000 recorder" loading="lazy" data-cms-img="others-img4"><figcaption data-ko="기록계" data-en="Recorder" data-cms="others-t32">기록계</figcaption></figure>
-              <figure><img src="assets/accelerometer.webp" alt="SQ-120R accelerometer" loading="lazy" data-cms-img="others-img5"><figcaption data-ko="가속도센서" data-en="Accelerometer" data-cms="others-t33">가속도센서</figcaption></figure>
+              <figure class="full"><img src="assets/seismograph_set.webp" alt="기록계 SAFE TUNER DATA LOGGER, 가속도센서 SO-120R" loading="lazy" data-cms-img="others-img4"></figure>
+              <p class="approved" data-ko="지질자원연구원 승인 제품" data-en="Approved by the Korea Institute of Geoscience and Mineral Resources" data-cms="others-t11">지질자원연구원 승인 제품</p>
             </div>
-            <div class="spec-table compact">
-              <h4 data-ko="3채널/6채널/32채널 공통 사양" data-en="Common specification (3/6/32 channels)" data-cms="others-t11">3채널/6채널/32채널 공통 사양</h4>
-              <dl>
-                <div><dt data-ko="측정 신호 · 전압" data-en="Signal · voltage" data-cms="others-t12">측정 신호 · 전압</dt><dd data-cms-text="others-x3">0-5Volt</dd></div>
-                <div><dt data-ko="측정 신호 · 진동현" data-en="Signal · vibrating wire" data-cms="others-t13">측정 신호 · 진동현</dt><dd data-cms-text="others-x4">450~5khz</dd></div>
-                <div><dt data-ko="동작 온도" data-en="Operating temp." data-cms="others-t14">동작 온도</dt><dd data-ko="-20-60도" data-en="-20 to 60°C" data-cms="others-t15">-20-60도</dd></div>
-              </dl>
-            </div>
+            <figure class="spec-figure"><img src="assets/seismograph_spec.webp" alt="Seismograph specifications" loading="lazy" data-cms-img="others-img5"></figure>
           </div>
         </article>
 
@@ -551,16 +531,9 @@
           <div class="other-head"><span class="p-num" data-cms-text="others-x104">6-3</span><h3 data-ko="디지털 야장" data-en="Digital field readout" data-cms="others-t16">디지털 야장</h3></div>
           <div class="other-body">
             <div class="thumb-row">
-              <figure class="tall"><img src="assets/digital_readout.webp" alt="D500 indicator" loading="lazy" data-cms-img="others-img6"><figcaption data-ko="인디게이터" data-en="Indicator" data-cms="others-t34">인디게이터</figcaption></figure>
+              <figure class="full"><img src="assets/digital_readout.webp" alt="D500 인디게이터" loading="lazy" data-cms-img="others-img6"></figure>
             </div>
-            <div class="spec-table compact">
-              <h4 data-ko="3채널/6채널/32채널 공통 사양" data-en="Common specification (3/6/32 channels)" data-cms="others-t17">3채널/6채널/32채널 공통 사양</h4>
-              <dl>
-                <div><dt data-ko="측정 신호 · 전압" data-en="Signal · voltage" data-cms="others-t18">측정 신호 · 전압</dt><dd data-cms-text="others-x5">0-5Volt</dd></div>
-                <div><dt data-ko="측정 신호 · 진동현" data-en="Signal · vibrating wire" data-cms="others-t19">측정 신호 · 진동현</dt><dd data-cms-text="others-x6">450~5khz</dd></div>
-                <div><dt data-ko="동작 온도" data-en="Operating temp." data-cms="others-t20">동작 온도</dt><dd data-ko="-20-60도" data-en="-20 to 60°C" data-cms="others-t21">-20-60도</dd></div>
-              </dl>
-            </div>
+            <figure class="spec-figure"><img src="assets/digital_readout_spec.webp" alt="측정신호 사양" loading="lazy" data-cms-img="others-img10"></figure>
           </div>
         </article>
 
@@ -568,17 +541,9 @@
           <div class="other-head"><span class="p-num" data-cms-text="others-x105">6-4</span><h3 data-ko="원라인 센서" data-en="One-line sensors" data-cms="others-t22">원라인 센서</h3></div>
           <div class="other-body">
             <div class="thumb-row">
-              <figure class="wide"><img src="assets/one_line_sensor.webp" alt="485 module board" loading="lazy" data-cms-img="others-img7"><figcaption data-ko="485 모듈" data-en="485 module" data-cms="others-t35">485 모듈</figcaption></figure>
-              <figure><img src="assets/tilt_sensor_board.webp" alt="Tilt sensor board" loading="lazy" data-cms-img="others-img8"><figcaption data-cms-text="others-x106">TILT SENSOR</figcaption></figure>
+              <figure class="full"><img src="assets/one_line_sensors.webp" alt="485 모듈, TILT SENSOR" loading="lazy" data-cms-img="others-img7"></figure>
             </div>
-            <div class="spec-table compact">
-              <h4 data-ko="3채널/6채널/32채널 공통 사양" data-en="Common specification (3/6/32 channels)" data-cms="others-t23">3채널/6채널/32채널 공통 사양</h4>
-              <dl>
-                <div><dt data-ko="측정 신호 · 전압" data-en="Signal · voltage" data-cms="others-t24">측정 신호 · 전압</dt><dd data-cms-text="others-x7">0-5Volt</dd></div>
-                <div><dt data-ko="측정 신호 · 진동현" data-en="Signal · vibrating wire" data-cms="others-t25">측정 신호 · 진동현</dt><dd data-cms-text="others-x8">450~5khz</dd></div>
-                <div><dt data-ko="동작 온도" data-en="Operating temp." data-cms="others-t26">동작 온도</dt><dd data-ko="-20-60도" data-en="-20 to 60°C" data-cms="others-t27">-20-60도</dd></div>
-              </dl>
-            </div>
+            <figure class="spec-figure"><img src="assets/one_line_sensor_spec.webp" alt="사양 설명 · 아나로그 입력 · RS-485 디지털 출력" loading="lazy" data-cms-img="others-img8"></figure>
           </div>
         </article>
 
@@ -588,6 +553,7 @@
             <div class="thumb-row">
               <figure class="wide"><img src="assets/fbg_interrogator.webp" alt="FS-5060 FBG interrogator" loading="lazy" data-cms-img="others-img9"><figcaption data-ko="FBG 광측정기" data-en="FBG interrogator" data-cms="others-t36">FBG 광측정기</figcaption></figure>
             </div>
+            <figure class="spec-figure"><img src="assets/fbg_spec.webp" alt="FBG interrogator specifications" loading="lazy" data-cms-img="others-img11"></figure>
           </div>
         </article>
       </div>
@@ -632,6 +598,6 @@
 
   <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog"><div class="modal-backdrop lightbox-close"></div><button class="modal-x lightbox-close" aria-label="Close">×</button><img src="" alt="" id="lightboxImg"></div>
 
-  <script src="app.js?v=20260916140844"></script>
+  <script src="app.js?v=20260917150000"></script>
 </body>
 </html>
