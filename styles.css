@@ -151,3 +151,6 @@
 .spec-figure{margin:0}.spec-figure img{width:100%;height:auto;display:block;border:1px solid var(--line)}
 .approved{margin:14px 0 0;width:100%;font-size:14px;font-weight:800;color:var(--navy)}
 @media(max-width:1050px){.other-body{grid-template-columns:1fr}.spec-figure{max-width:640px}}
+/* products intro → subnav → first category: one continuous paper tone, no white gap */
+.products-intro{background:var(--paper);padding-bottom:24px;border-top:0}.products-intro .section-heading{margin-bottom:0}
+.subnav{background:rgba(244,247,250,.96);border-top:0}
