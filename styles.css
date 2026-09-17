@@ -135,7 +135,7 @@
   .hero .btn-ghost{border-color:#1c5fb8;color:#1c5fb8}
 }
 /* about: single provided visual */
-.about-visual{display:block;height:auto}.about-visual img{height:auto;object-fit:contain}
+.about-visual{display:block;height:auto;margin:0;overflow:hidden;background:#edf1f4}.about-visual img{width:100%;height:auto;object-fit:contain;display:block}.about .eyebrow{margin-bottom:22px}.about.section{padding-top:70px;padding-bottom:70px}
 /* solutions flow: tighter so 제품소개 follows right below (솔루션 보기) */
 .intro.section{padding-top:56px;padding-bottom:40px}
 .intro .section-heading{margin-bottom:28px}
